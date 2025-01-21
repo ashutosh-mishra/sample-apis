@@ -1,4 +1,4 @@
-# Python FastAPI DEMO
+# Sample APIs DEMO
 
 This DEMO API will be used to showcase fastAPI, CICD and more.
 
