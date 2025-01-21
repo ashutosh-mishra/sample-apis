@@ -47,7 +47,8 @@ jobs:
     steps:
 
       - name: pull docker image
-        run: |
-          docker pull ashutosh-mishra/sample-apis:${{ github.sha }}
+        run: echo "Pull above built docker image and deploy to prod"
+        # run: |
+        #   docker pull ashutosh-mishra/sample-apis:${{ github.sha }}
         
   
