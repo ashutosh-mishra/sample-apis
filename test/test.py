@@ -9,7 +9,7 @@ stores = database.generate_store_db()
 
 def test_get_stores():
     response = client.get('/stores')
-    assert response.status_code == 201
+    assert response.status_code == 200
     assert response.json() == stores
 
 def test_get_store():
